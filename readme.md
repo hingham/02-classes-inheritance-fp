@@ -1,42 +1,28 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Project Name
+## Project Name: Classes-Inheritance
 
-### Author: Student/Group Name
+### Author: Hannah Ingham
 
 ### Links and Resources
-* [repo](http://xyz.com)
+* [repo](https://github.com/hingham/02-classes-inheritance-hingham)
 * [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+* [back-end](https://dashboard.heroku.com/apps/classes-heritance-hi)
 
 ### Modules
-#### `modulename.js`
-##### Exported Values and Methods
-
-###### `foo(thing) -> string`
-Usage Notes or examples
-
-###### `bar(array) -> array`
-Usage Notes or examples
+#### `vehicle-constructor.js`
+#### `list.js`
 
 ### Setup
 #### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+* `PORT` - assign a port number
 
 #### Running the app
 * `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+* Endpoint: `/`
 
 #### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+* How do you run tests? npm run test-watch
 
-#### UML
-Link to an image of the UML for your application and response to events
+
