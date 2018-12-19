@@ -1,6 +1,10 @@
 'use strict';
 
-const Vehicle = require('../constructor.js');
+// const Vehicle = require('../vehicle-constructor.js');
+
+// const Vehicle = require('../vehicle-class.js');
+const Vehicle = require('../vehicle-factory.js');
+
 
 describe('Vehicles', () => {
 
@@ -44,6 +48,75 @@ describe('Vehicles', () => {
 
     it('cannot do a wheelie', () => {
       expect(motorcycle.wheelie()).toBeTruthy();
+    });
+
+  });
+
+
+  describe('Helicopter', () => {
+
+    let helicopter = new Vehicle.Helicopter('foo');
+
+    it('has 0 wheels', () => {
+      expect(helicopter.wheels).toEqual(0);
+    });
+
+    it('can fly', () => {
+      expect(helicopter.fly()).toBeTruthy();
+    });
+
+    it('can travel', () => {
+      expect(helicopter.travel()).toBeTruthy();
+    });
+
+  });
+
+  describe('Airplane', () => {
+
+    let airplane = new Vehicle.Helicopter('foo');
+
+    it('has 2 wheels', () => {
+      expect(airplane.wheels).toEqual(0);
+    });
+
+    it('can fly', () => {
+      expect(airplane.fly()).toBeTruthy();
+    });
+
+    it('can travel', () => {
+      expect(airplane.travel()).toBeTruthy();
+    });
+
+    it('has wings', () => {
+      expect(airplane.travel()).toBeTruthy();
+    });
+
+  });
+
+  describe('Crab', () => {
+
+    let crab = new Vehicle.Crab('foo');
+
+    it('has a habitat', () => {
+      expect(crab.habitat).toBeTruthy();
+    });
+
+    it('can lives in water', () => {
+      expect(crab.water()).toBeTruthy();
+    });
+
+  });
+
+  describe('Whale', () => {
+
+    let whale = new Vehicle.Whale('foo');
+
+    it('has a habitat', () => {
+      expect(whale.habitat).toBeTruthy();
+    });
+
+    it('can lives in water', () => {
+      expect(whale.water()).toBeTruthy();
     });
 
   });

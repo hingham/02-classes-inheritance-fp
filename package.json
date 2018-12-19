@@ -1,0 +1,25 @@
+{
+  "name": "02-classes-inheritance-fp",
+  "version": "1.0.0",
+  "description": "lab-02-class-inheritance",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint **/*.js",
+    "test": "jest --version --coverage",
+    "test-watch": "jest --watchAll --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hingham/02-classes-inheritance-fp.git"
+  },
+  "author": "hannah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hingham/02-classes-inheritance-fp/issues"
+  },
+  "homepage": "https://github.com/hingham/02-classes-inheritance-fp#readme",
+  "dependencies": {
+    "faker": "^4.1.0"
+  }
+}
